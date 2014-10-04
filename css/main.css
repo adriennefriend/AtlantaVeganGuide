@@ -1,0 +1,80 @@
+.template { display:none; }
+.highlight {
+    border-radius:5px;
+    background-color: rgb(215, 215, 215);
+}
+#content {
+    margin-top:43px;
+}
+
+/* place template */
+.place {
+    margin-bottom:7px;
+}
+.phone {
+    font-size:85%;
+    color:#333;
+}
+.phone:hover {
+    color:#333;
+}
+.name {
+    font-weight:bold;
+}
+.price {
+    font-size:70%;
+}
+.address,.notes {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.address {
+    font-size:95%;
+}
+.notes {
+    font-size:85%;
+}
+
+/* suggest modal */
+#suggest label.control-label {
+    font-weight:bold;
+}
+
+/* boostrap extensions */
+#id { color: #333333; }
+#id:hover { color: #333333; }
+.nav-collapse .nav > li:hover {
+    color: #333333;
+}
+.nav-collapse .nav > li > a {
+    color: #333333;
+}
+.nav-collapse .nav > li a:hover {
+    color: #333333;
+}
+.nav-collapse .nav > li:hover {
+    color: #333333;
+}
+.navbar .nav > li > a:hover {
+
+    color: #333333;
+}
+.nav > li > a:hover {
+    color: #333333;
+}
+.nav > li:hover {
+    color: #333333;
+}
+.navbar .brand {
+    color: #333333;
+}
+.navbar-inner {
+  color: #333333;
+  background-color: rgb(185, 192, 192);
+  background-image: none;
+  background-repeat: none;
+  filter: none;
+}
+
+.navbar .navbar-inner > .nav-collapse .nav li a:hover { color: #333333; }
+.navbar .navbar-inner > .nav-collapse .nav li:hover { color: #333333; }

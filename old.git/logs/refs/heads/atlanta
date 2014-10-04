@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 bb4684e07bad537b876377f8030aede3c536e7af root <root@sylvia.(none)> 1344810575 -0400	branch: Created from HEAD
+bb4684e07bad537b876377f8030aede3c536e7af 1409cb3bd5f6fcbc6ec9f0736249abda29576fca root <root@sylvia.(none)> 1344810908 -0400	commit: customize for ctp/atlanta
+1409cb3bd5f6fcbc6ec9f0736249abda29576fca 68dd20ba9faa4edca2b7266cf81acb29529ae7ec root <root@sylvia.(none)> 1344811452 -0400	commit (amend): customize for ctp/atlanta.
+68dd20ba9faa4edca2b7266cf81acb29529ae7ec 0bdaeeea17ff1f5157cc651c0d036c4f280e29e8 root <root@sylvia.(none)> 1344812534 -0400	commit (merge): conflict reso
+0bdaeeea17ff1f5157cc651c0d036c4f280e29e8 9e281292b93adbc8bc52292d70956177aedebec7 root <root@sylvia.(none)> 1344813400 -0400	pull origin master: Merge made by recursive.
+9e281292b93adbc8bc52292d70956177aedebec7 6688a60ac8144b77f1480b64507723a74d6221ff root <root@sylvia.(none)> 1344813624 -0400	pull origin master: Merge made by recursive.
+6688a60ac8144b77f1480b64507723a74d6221ff b39bc16748a5c4c7588548a06f7f76cabebbc073 root <root@sylvia.(none)> 1344813767 -0400	pull origin master: Merge made by recursive.
+b39bc16748a5c4c7588548a06f7f76cabebbc073 3726568cb38d8551e20dfd1750890c1f58e17701 root <root@sylvia.(none)> 1344814446 -0400	pull origin master: Merge made by recursive.
+3726568cb38d8551e20dfd1750890c1f58e17701 aac5ffc2a74b8794bdd12d605dc19495ddea6c78 root <root@sylvia.(none)> 1344814460 -0400	commit: no fade for donate modal
+aac5ffc2a74b8794bdd12d605dc19495ddea6c78 e37aa44a4cf5a0c16da146b81dae3ea673df495f root <root@sylvia.(none)> 1344814535 -0400	commit: shorten title
+e37aa44a4cf5a0c16da146b81dae3ea673df495f 84bb72d169db428ce25c0192b7e1142860ba0eed root <root@sylvia.(none)> 1344815066 -0400	pull origin master: Merge made by recursive.
+84bb72d169db428ce25c0192b7e1142860ba0eed 2f38cb3e7f6c414ea1e3d15debcfbc413f818dc4 root <root@sylvia.(none)> 1344815708 -0400	commit: shorten title
+2f38cb3e7f6c414ea1e3d15debcfbc413f818dc4 9a8fb982ccf5fd6df8df648b1dfe04b0c6aa6c51 root <root@sylvia.(none)> 1344831083 -0400	pull origin master: Merge made by recursive.
+9a8fb982ccf5fd6df8df648b1dfe04b0c6aa6c51 5beb2448b544b4a4b01cdea58bc9b3aca6cd269c root <root@sylvia.(none)> 1345523105 -0400	commit: add new places
+5beb2448b544b4a4b01cdea58bc9b3aca6cd269c 2e06830d62ad2ee1c95a87e0c47025ac78cbbb45 nathaniel smith <nathanielksmith@gmail.com> 1412457090 +0000	commit: get up to date
+2e06830d62ad2ee1c95a87e0c47025ac78cbbb45 f0e52b83cf62d9f555f31ed615e009f98f790ff1 adriennefriend <adriennefriend@gmail.com> 1412457662 -0400	commit: Remove Dough Bakery and Gutenfleischer's since they closed.
