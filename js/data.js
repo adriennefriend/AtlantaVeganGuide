@@ -6,6 +6,13 @@ var data =  {
     columns: [{
         category: "Vegan ",
         places: [{
+            name: "Drink Art",
+            price: "$$",
+            address: "199 Walker Street, Atlanta, GA 30313",
+            phone: "(404) 592-5275",
+            notes: "vegan thai food, delicious cocktails",
+            link: "http://www.drinkart.com/menu.html"
+        }, {
             name: "Dulce Vegan Bakery & Cafe",
             price: "$",
             address: "1994 Hosea L Williams Dr 30317",
