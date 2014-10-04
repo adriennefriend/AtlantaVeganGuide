@@ -158,7 +158,7 @@ var data =  {
             price: "$",
             address: "614 Church St Decatur 30033",
             phone: "(404) 373-7155",
-            notes: "vegan co-owned, bbq tofu, kale, organic french fries",
+            notes: "vegan co-owned, barbecue tofu, kale, organic french fries",
             link: "http://www.burntforkbbq.com/"
         }, {
             name: "Cardamom Hill",
