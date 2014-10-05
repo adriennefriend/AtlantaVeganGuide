@@ -20,6 +20,13 @@ var data =  {
             notes: "cupcakes, pastries, breakfast sandwiches, lunch",
             link: "http://dulcevegan.com/"
         }, {
+            name: "Go Vegetarian Restaurant",
+            price: "$",
+            address: "2179 Lawrenceville Hwy Suite H Decatur GA 30033",
+            phone: "(404) 481-5923",
+            notes: "vegan fast food! burgers, chicken & fish sandwiches, onion rings, salads, milkshakes, apple pie a la mode",
+            link: "http://www.govegetarianrestaurant.com"
+         }, {
             name: "Harmony Vegetarian",
             price: "$",
             address: "4897 Buford Highway #109 30341",
@@ -34,12 +41,19 @@ var data =  {
             notes: "Caribbean, mock meats, (i.e., UnGoat), combo plates",
             link: "http://www.healthfullessence.com/"
         }, {
-            name: "Loving Hut - Kennesaw",
+            name: "Juicy Jenny",
+            price: "$$",
+            address: "56 E Andrews Dr NW Ste 25A Atlanta, GA 30305",
+            phone: "(404) 848-1480",
+            notes: "cold pressed juice, superfood smoothies, vegan lunch bar",
+            link: "http://juicyjennyatl.com/"
+        }, {
+            name: "Loving Hut - Sandy Springs",
             price: "$",
-            address: "2700 Town Center Drive Kennesaw 30144",
-            phone: "(770) 429-0666",
-            notes: "summer roll, fried tofu, salads, smoothies</br>western dishes and noodle dishes, lunch specials, closed 3pm - 5pm daily",
-            link: "http://lovinghut.us/kennesaw/menu.html"
+            address: "220 Hamond Drive Sandy Springs 30328",
+            phone: "(404) 941-7992",
+            notes: "appetizers, salads, raw dishes, noodles, chili, curry, mac & cheese",
+            link: "http://lovinghut.us/sandysprings_01/menu.html"
         }, {
             name: "Loving Hut - Norcross",
             price: "$",
@@ -55,13 +69,13 @@ var data =  {
             notes: "organic, sustainable, raw/living menu, juice",
             link: "http://www.lovingitlive.com/"
         }, {
-            name: "Soul Vegetarian West End",
+            name: "Soul Vegetarian - West End",
             price: "$$",
             address: "879 Ralph David Abernathy Blvd 30310",
             phone: "(404) 752-5194",
             notes: "southern soul food, weekend brunch<br/>mac'n'cheese, country fried steak"
         }, {
-            name: "South Vegetarian Poncey-Highlands",
+            name: "South Vegetarian - N. Highland",
             price: "$$",
             address: "652 N Highland Ave NE 30306",
             phone: "(404) 875-4641",
@@ -138,28 +152,30 @@ var data =  {
             phone: "(770) 955-3740",
             notes: "Gujarati thali - roti and daily curries served with accompaniments (request vegan)",
             link: "http://www.indiagourmet.com/"
-        }, {
-            name: "World Peace Cafe",
-            price: "$$",
-            address: "220 Hamond Drive Sandy Springs 30328",
-            phone: "(404) 256-2100",
-            notes: "pancakes, reuben, tofu steak, polenta & eggplant caponata",
-            link: "http://worldpeacecafeatlanta.com/"
         }]
     }, {
         category: "Vegan Friendly ",
         places: [{
+            name: "Ammazza",
+            price: "$$",
+            address: "591-A Edgewood Ave SE Atlanta GA 30312",
+            phone: "(404) 228-1036",
+            notes: "Napoletana style pizza cooked in high-temp woodburning ovens, antipasto, housemade cashew cheeze!",
+            link: "http://ammazza.com/menu.php/"
+        }, {
             name: "Bahel Ethiopian Restaurant",
             price: "$$",
             address: "3125 Briarcliff Rd NE 30329",
             phone: "(404) 325-6000",
             notes: "veg dishes are prepared w/ corn oil, not butter"
+            link: "https://plus.google.com/103190817658618449440/about?gl=us&hl=en/"
         }, {
             name: "Blossom Tree",
             price: "$",
             address: "64 Peachtree St NW 30303",
             phone: "(404) 223-7500",
             notes: "Korean tofu tacos, fried sweet potatoes"
+            link: "https://www.facebook.com/blossomtreekoreaneatery?rf=189080061135159/"
         }, {
             name: "Burnt Fork BBQ",
             price: "$",
@@ -168,12 +184,12 @@ var data =  {
             notes: "vegan co-owned, barbecue tofu, kale, organic french fries",
             link: "http://www.burntforkbbq.com/"
         }, {
-            name: "Cardamom Hill",
-            price: "$$$",
-            address: "1700 Northside Drive NW 30318",
-            phone: "(404) 549-7012",
-            notes: "Kerala fine dining, daily vegetarian, request vegan",
-            link: "http://cardamomhill.net/"
+            name: "Chai Pani",
+            price: "$",
+            address: "406 W. Ponce de Leon Ave Decatur GA 30030",
+            phone: "(404) 378-4030",
+            notes: "Serving lunch and dinner, Indian street food, snacks, uttapam, salads, samosa, okra fries",
+            link: "http://chaipanidecatur.com/menu/"
         }, {
             name: "Chinese Buddha",
             price: "$$",
@@ -208,6 +224,13 @@ var data =  {
             phone: "(404) 588-0250",
             notes: "Hazeadilla quesadilla, great guacamole<br/>giant burritos, bbq tofu tacos",
             link: "http://elmyr.com/"
+        }, {
+            name: "Elmyriachi Restaurant & Cantina",
+            price: "$",
+            address: "1950 Hosea L Williams Dr NE Atlanta GA 30317",
+            phone: "(678) 705-9902",
+            notes: "tofu chilaquiles, tofu chimichanga, chiles poblanos, giant burritos, tacos",
+            link: "http://www.elmyriachi.com/menu/"
         }, {
             name: "The Graveyard Tavern",
             price: "$",
@@ -278,6 +301,13 @@ var data =  {
             address: "4005 Buford Hwy NE 30345",
             phone: "(404) 728-1008",
             notes: "Buy 5 get 1 free Banh Mi; vegan pho"
+        }, {
+            name: "Little Bangkok Thai & Chinese Cuisine",
+            price: "$",
+            address: "2225 Cheshire Bridge Rd Atlanta GA 30324",
+            phone: "(404) 315-1530",
+            notes: "Chinese and thai, request vegan",
+            link: "http://littlebangkokatlanta.com/"
         }, {
             name: "Lunacy Black Market",
             price: "$",
@@ -354,6 +384,13 @@ var data =  {
             notes: "falafel, Israeli salads, fried eggplant, kosher certified",
             link: "http://www.panahar.com/"
         }, {
+            name: "Queen of Sheba Ethiopian",
+            price: "$",
+            address: "1594 Woodcliff Dr NE Atlanta GA 30329",
+            phone: "(404) 321-1493",
+            notes: "sambusa, salad, full vegetarian menu, request vegan, lunch specials",
+            link: "http://qsheba.com/menu/"
+        }, {
             name: "R. Thomas Deluxe Grill",
             price: "$$",
             address: "1812 Peachtree St NE 30309",
@@ -365,7 +402,7 @@ var data =  {
             price: "$$",
             address: "1530 Dekalb Ave Atlanta 30307",
             phone: "(404) 659-6594",
-            notes: "vegan pancakes, vegan hash, grain bowl.</b>Vegan items on menu noted with a V.",
+            notes: "vegan buckwheat pancakes, vegan hash, grain bowl.</b>Vegan items on menu noted with a V.",
             link: "http://www.radial.us"
         }, {
             name: "Raging Burrito & Taco",
@@ -390,12 +427,11 @@ var data =  {
             notes: "vegan brunch, lunch, open 8am-3pm<br/>across from Historic Oakland Cemetery, great walk post meal",
             link: "http://riasbluebird.com/"
         }, {
-            name: "Sheik Burritos n Kabobs",
+            name: "RuSan's - multiple locations",
             price: "$",
-            address: "1877 Piedmont Rd 30324",
-            phone: "(404) 815-0227",
-            notes: "unique salsas, soups, kabobs, burritos",
-            link: "http://saucedatlanta.com/"
+            address: "120 Caroline St Ste A-200 Atlanta GA 30307",
+            phone: (404) 653-9886",
+            notes: "vegan sushi, tempura zucchini maki, edamame",
         }, {
             name: "So Ba Vietnamese Restaurant",
             price: "$",
@@ -417,15 +453,7 @@ var data =  {
             notes: "full case of vegan cakes for slicing, wedding cakes, lunch",
             link: "http://www.southernsweets.com/"
         }, {
-            name: "Spoon Thai Restaurant, Westside",
-            price: "$$",
-            address: "768 Marietta Steet 30318",
-            phone: "(404) 522-5655",
-            notes: "vegan noodle dishes, fried tofu, spring rolls, curries not vegan",
-            link: "http://www.spoonatlanta.com/",
-            map_override: true
-        }, {
-            name: "Spoon Thai Restaurant, Eastside",
+            name: "Spoon Thai Restaurant - Eastside",
             price: "$$",
             address: "749 Moreland Ave 30316",
             phone: "(404) 624-4713",
@@ -439,19 +467,19 @@ var data =  {
             notes: "gluten-free blueberry pancakes, rancheros, grits, brunch",
             link: "http://www.stonesoupkitchen.net/"
         }, {
-            name: "Thai House",
+            name: "Taverna Plaka",
+            price: "$$",
+            address: "2196 Cheshire Bridge Rd Atlanta GA 30324",
+            phone: "(404) 636-2284",
+            notes: "traditional Greek cuisine served as prepared, hummus, dolmadakia, roasted eggplant spread, chef may prepare special vegan courses with advance notice",
+            link: "http://tavernaplakaatlanta.com/menus/"
+        }, {
+            name: "Thai House Roswell",
             price: "$",
             address: "1227 Alpharetta St Roswell",
             phone: "(770) 993-1688",
             notes: "extensive vegan menu, vegan items noted, soups, rice</br>two different kinds of vegan proteins: sue-gai (chicken) and sue-yi (fish)",
             link: "http://www.thaihouseroswell.com/Thai_House_-_Vegetarian/thai_house_-_vegetarian.html"
-        }, {
-            name: "Thinking Man Tavern",
-            price: "$",
-            address: "537 West Howard Ave 30030",
-            phone: "(404) 370-1717",
-            notes: "small plates, vegan bbq sandwich, tofu steak T.L.T",
-            link: "http://www.thinkingmantavern.com/"
         }, {
             name: "Uncle Maddio's Pizza Joint",
             price: "$",
