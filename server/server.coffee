@@ -32,6 +32,6 @@ app = express()
 # app.delete '/athletable/*', proxyFunc
 
 # serves all static files from current dir.
-app.use '/', express.static path.join(process.cwd(), 'app')
+app.use '/', express.static process.cwd()
 
 app.listen process.env.PORT || 8090
