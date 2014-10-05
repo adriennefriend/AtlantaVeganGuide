@@ -1,0 +1,24 @@
+{
+  "name": "AtlantaVeganGuide",
+  "version": "0.0.0",
+  "description": "a reusable, customizable template site for vegan restaurant lists.",
+  "main": "index.html",
+  "dependencies": {
+    "email": "^0.2.6",
+    "express": "^3.17.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adriennefriend/AtlantaVeganGuide.git"
+  },
+  "author": "adriennefriend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriennefriend/AtlantaVeganGuide/issues"
+  },
+  "homepage": "https://github.com/adriennefriend/AtlantaVeganGuide"
+}
