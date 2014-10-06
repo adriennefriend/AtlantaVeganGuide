@@ -40,8 +40,7 @@ $('#suggest form').submit(function(e) {
 
 // filtering
 $('#filter').keyup(function() {
-    var search = $('#filter').attr('value');
-    console.log(search);
+    var search = $('#filter').val();
     if (search === '') {
         $('.place').show();
     }

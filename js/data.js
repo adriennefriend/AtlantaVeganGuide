@@ -167,14 +167,14 @@ var data =  {
             price: "$$",
             address: "3125 Briarcliff Rd NE 30329",
             phone: "(404) 325-6000",
-            notes: "veg dishes are prepared w/ corn oil, not butter"
+            notes: "veg dishes are prepared w/ corn oil, not butter",
             link: "https://plus.google.com/103190817658618449440/about?gl=us&hl=en/"
         }, {
             name: "Blossom Tree",
             price: "$",
             address: "64 Peachtree St NW 30303",
             phone: "(404) 223-7500",
-            notes: "Korean tofu tacos, fried sweet potatoes"
+            notes: "Korean tofu tacos, fried sweet potatoes",
             link: "https://www.facebook.com/blossomtreekoreaneatery?rf=189080061135159/"
         }, {
             name: "Burnt Fork BBQ",
@@ -430,7 +430,7 @@ var data =  {
             name: "RuSan's - multiple locations",
             price: "$",
             address: "120 Caroline St Ste A-200 Atlanta GA 30307",
-            phone: (404) 653-9886",
+            phone: "(404) 653-9886",
             notes: "vegan sushi, tempura zucchini maki, edamame",
         }, {
             name: "So Ba Vietnamese Restaurant",

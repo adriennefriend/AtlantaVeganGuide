@@ -1,0 +1,36 @@
+{
+  "name": "AtlantaVeganGuide",
+  "version": "0.0.0",
+  "description": "a reusable, customizable template site for vegan restaurant lists.",
+  "main": "index.html",
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "bower": "^1.3.9",
+    "email": "^0.2.6",
+    "express": "^3.17.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "coffee server/server.coffee",
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adriennefriend/AtlantaVeganGuide.git"
+  },
+  "author": "adriennefriend",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/adriennefriend/AtlantaVeganGuide/issues"
+  },
+  "homepage": "https://github.com/adriennefriend/AtlantaVeganGuide"
+}

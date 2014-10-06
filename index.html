@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <script src="js/mustache.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="vendor/mustache/mustache.js"></script>
+    <script src="vendor/jquery/dist/jquery.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/data.js"></script>
     <!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
     <script type="text/javascript">
-    	var analyticsFileTypes = [''];
-    	var analyticsEventTracking = 'enabled';
+        var analyticsFileTypes = [''];
+        var analyticsEventTracking = 'enabled';
     </script>
     <script type="text/javascript">
-    	var _gaq = _gaq || [];
-    	_gaq.push(['_setAccount', 'UA-11423217-1']);
-    	_gaq.push(['_trackPageview']);
-    	_gaq.push(['_trackPageLoadTime']);
-    
-    	(function() {
-    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    	})();
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-11423217-1']);
+        _gaq.push(['_trackPageview']);
+        _gaq.push(['_trackPageLoadTime']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
     </script>
 </head>
 <body>
@@ -38,11 +38,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-                <a id="title" class="brand" href="#">Atlanta Vegan Restaurant Guide</a>
+                <a id="title" class="brand" href="/atlantaveganguide/">Atlanta Vegan Restaurant Guide</a>
                 <div class="nav-collapse">
                     <ul class="nav">
                         <li class="suggestions"><a data-toggle="modal" href="#suggest">Suggest <i class="icon-comment"></i></a></li>
-			<li><a data-toggle="modal" href="#donate">Donate <i     class="icon-gift"></i></a></li>
+            <li><a data-toggle="modal" href="#donate">Donate <i     class="icon-gift"></i></a></li>
                         <li><a id="random" href="#">Random! <i class="icon-random"></i></a></li>
                         <li>
                             <form class="navbar-search">
@@ -226,7 +226,7 @@
             </div> <!-- /.row-fluid -->
             {{#places}}
             <div class="place row-fluid">
-                <span class="name">{{#link}}<a href="{{link}}" target="_blank">{{/link}}{{name}}{{#link}}</a>{{/link}}</span>
+                <span class="name"><a href="{{link}}" target="_blank">{{name}}{{#link}}</a>{{/link}}</span>
                 <span class="price">{{price}}</span>
                 <p class="address">
                     {{address}}

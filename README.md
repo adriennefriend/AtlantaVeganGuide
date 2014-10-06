@@ -23,3 +23,19 @@ edit js/data.js to set up customizable bits.
 ## license
 
 [apache](http://www.apache.org/licenses/LICENSE-2.0), just like twitter bootstrap
+
+## development
+
+### Requirements
+
+*  NPM
+  *  `npm install`
+*  Bower
+  *  `npm install -g bower`
+  *  `bower install`
+
+### Running Locally
+
+*  `npm install -g http-server`
+*  `http-server` (in root of git directory)
+*  [http://localhost:8081](http://localhost:8081) or whatever `http-server` says
