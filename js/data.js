@@ -167,7 +167,7 @@ var data =  {
             price: "$$",
             address: "3125 Briarcliff Rd NE 30329",
             phone: "(404) 325-6000",
-            notes: "veg dishes are prepared w/ corn oil, not butter"
+            notes: "veg dishes are prepared w/ corn oil, not butter",
             link: "https://plus.google.com/103190817658618449440/about?gl=us&hl=en/"
         }, {
             name: "Blossom Tree",
